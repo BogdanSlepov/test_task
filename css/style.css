@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+}
+
+.wrapper {
+
+}
+
+.header {
+
+}
+
+.shape1 {
+    position: relative;
+    width: 717px;
+    height: 455px;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    right: 170px;
+    z-index: 2;
+}
+
+.menu {
+    height: 200px;
+    width: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    z-index: 1;
+}
+
+.title {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-name {
+    font-size: 35px;
+}
+
+.event-date {
+    color: #4090db;
+    font-size: 15px;
+    border: 1px solid #4090db;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.subscription {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.datepicker-wrapper {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.number-subscription {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 15px 0 15px;
+}
+
+.name-subscription {
+    font-size: 17px;
+    color: #3d4044;
+    font-weight: 400;
+}
+
+.date-dropper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.main {
+    position: relative;
+    top: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.block1-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 845px;
+    height: 95px;
+    background: #ffffff;
+}
+
+.block1-container1 {
+
+}
+
+.img1 {
+
+}
+
+.block1-text1 {
+    margin: 0 90px 0 30px;
+}
+
+.block1-text1-edit1 {
+    font-size: 17px;
+}
+
+.image-upload1 {
+    font-size: 17px;
+}
+
+.block1-text1-edit2 {
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.block1-text1-number {
+    margin-left: 10px;
+}
+
+.block1-text1-img {
+    margin-left: 30px;
+}
+
+.load-more {
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 40px;
+    text-decoration: none;
+    border: none;
+}
+
+.shape2 {
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+.main2 {
+    position: relative;
+    top: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    width: 950px;
+    justify-content: center;
+}
+
+.block2 {
+    position: relative;
+    width: 292px;
+    height: 292px;
+    margin: 10px;
+}
+
+.img2 {
+    width: 292px;
+    height: 292px;
+}
+
+.block2-container {
+    color: #ffffff;
+    position: absolute;
+    top: 130px;
+}
+
+.block2-text1-edit1 {
+
+}
+
+.block2-text1 {
+    width: 292px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.block2-text1-edit2 {
+    display: flex;
+}
+
+.block2-text1-number {
+    margin-left: 10px;
+}
+
+.image-upload {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.heart2 {
+    margin-left: 33px;
+
+}
+
+.comment2 {
+
+}
+
+.heart1 {
+
+}
+
+.comment1 {
+
+}
+
+.list {
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+.tile {
+    position: absolute;
+    top: 200px;
+    right: 340px;
+}

@@ -1,0 +1,365 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    
+    <title>monblanproject</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- HEAD -->
+        <div class="header">
+            <div class="shape1">
+                <img src="./img/Shape1.png" alt="shape1">
+                <div class="logo">
+                    <img src="./img/Logo.png" alt="logo">
+                </div>
+            </div>
+            <div class="menu">
+                <div class="title">
+                    <span class="title-name">monblanproject</span>
+                    <span class="event-date">Start on 17-02-2016</span>
+                </div>
+                <div class="subscription">
+                    <span class="number-subscription">870<span class="name-subscription"> posts</span></span>
+                    <span class="number-subscription">11,787<span class="name-subscription"> followers</span></span>
+                    <span class="number-subscription">112<span class="name-subscription"> following</span></span>
+                </div>
+                <div class="datepicker-wrapper">
+                    <label for="datepicker">Date:</label>
+                    <input type="text" placeholder="from">
+                    <input type="text" placeholder="09_08_2016" id="datepicker">
+                </div>
+            </div>
+            <button class="tile" onclick="changeToTile()"><img src="./img/tile.png" alt="tile"></button>
+            <button class="list" onclick="changeToList()"><img src="./img/list.png" alt="list"></button>
+        </div>
+        <!-- MAIN -->
+        <div class="main">
+            <!-- BLOCK1 -->
+            <div class="block1">
+                <img class="img1" src="./img/img1.png" alt="img1">
+                <div class="block1-container">
+                        <div class="block1-text1">
+                            <span class="block1-text1-edit1">Today</span>
+                            <div class="block1-text1-edit2">
+                                <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                                <span class="block1-text1-number">128</span>
+                                <div class="block1-text1-img">
+                                    <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                                </div>
+                                <span class="block1-text1-number">31</span>
+                            </div>
+                        </div>
+                        <div class="block1-text1">
+                            <span class="block1-text1-edit1">9-08-2016</span>
+                            <div class="block1-text1-edit2">
+                                <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                                <span class="block1-text1-number">67</span>
+                                <div class="block1-text1-img">
+                                    <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                                </div>
+                                <span class="block1-text1-number">22</span>
+                            </div>
+                        </div>
+                        <div class="block1-text1">
+                            <span class="block1-text1-edit1">Image upload</span>
+                            <div class="block1-text1-edit2">
+                                <span class="block1-text1-number">11-04-2016</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!-- BLOCK2 -->
+            <div class="block1">
+                <img class="img1" src="./img/img2.png" alt="img2">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK3 -->
+            <div class="block1">
+                <img class="img1" src="./img/img3.png" alt="img3">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img  class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK4 -->
+            <div class="block1">
+                <img class="img1" src="./img/img4.png" alt="img4">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK5 -->
+            <div class="block1">
+                <img class="img1" src="./img/img5.png" alt="img5">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK6 -->
+            <div class="block1">
+                <img class="img1" src="./img/img6.png" alt="img6">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK7 -->
+            <div class="block1">
+                <img class="img1" src="./img/img7.png" alt="img7">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK8 -->
+            <div class="block1">
+                <img class="img1" src="./img/img8.png" alt="img8">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOCK9 -->
+            <div class="block1">
+                <img class="img1" src="./img/img9.png" alt="img9">
+                <div class="block1-container">
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">Today</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">128</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">31</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="block1-text1-edit1">9-08-2016</span>
+                        <div class="block1-text1-edit2">
+                            <img class="heart1" src="./img/icon-heart.png" alt="icon-heart">
+                            <span class="block1-text1-number">67</span>
+                            <div class="block1-text1-img">
+                                <img class="comment1" src="./img/icon-comment.png" alt="icon-heart">
+                            </div>
+                            <span class="block1-text1-number">22</span>
+                        </div>
+                    </div>
+                    <div class="block1-text1">
+                        <span class="image-upload1">Image upload</span>
+                        <div class="block1-text1-edit2">
+                            <span class="block1-text1-number">11-04-2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <button class="load-more" type="button"><span>LOAD MORE</span></button>
+        </div>
+
+
+        </div>
+        <div class="shape2">
+            <img src="./img/Shape2.png" alt="shape2">
+        </div>
+
+    </div>
+
+    <script language="JavaScript" src="./js/script.js"></script>
+</body>
+
+</html>
